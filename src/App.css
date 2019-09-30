@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  
+}
+
+
+
+.hpage-f-cont>div {
+  flex:1;
+  height:600px;
+  padding:20px;
+  margin:10px;
+}
+
+.hover-light:hover{
+  
+  background: #CFD8DC
+  
+}
+
+.details > div{
+  flex:1;
+  height:600px;
+  padding:20px;
+  margin:10px;
+}
+.details > div > div {
+  margin:10px
+}
