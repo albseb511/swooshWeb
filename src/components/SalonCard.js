@@ -4,7 +4,8 @@ import {Link} from 'react-router-dom'
 export class SalonCard extends Component {
     render() {
         return (
-            <div className="row m-5 p-5 hover-light rounded" >
+            <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 d-flex">
+            <div className="row p-3 hover-light rounded" style={{width:420}}>
                 <img src="http://img1.wsimg.com/isteam/ip/7cc97807-6f84-4b05-ad27-38666cd1a781/1e884539dedf53b8d2fe1b8d69a85f5d.jpg" height="130px" />
                 <div className="p-2">
                     <div className="h2  " style={{textAlign:'left'}}>
@@ -26,6 +27,7 @@ export class SalonCard extends Component {
                         </Link>
                     </div>
                 </div>
+            </div>
             </div>
         )
     }

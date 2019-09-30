@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import HomePage from '../components/HomePage'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import SalonProfile from '../components/SalonProfile'
+import Login from '../components/login/Login'
 
 
 
@@ -24,7 +25,7 @@ export default class Home extends Component {
                 <Route path='/shop' render={()=><h1>Shop</h1>}/>
                 <Route path='/about' render={()=><h1>About</h1>}/>
                 <Route path='/salon/:id' render={(props)=><SalonProfile {...props} data={obj} />} />
-                <Route path='/login' render={()=><h1>Login</h1>}/>
+                <Route path='/login' render={()=><Login />}/>
                 <Route path='/dashboard' render={()=><h1>dashboard</h1>}/>
                 <Route path='/admin' render={()=><h1>Admin</h1>}/>
 

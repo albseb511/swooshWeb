@@ -31,8 +31,8 @@ export class Navbar extends Component {
                         </ul>
                         {/* Link */}
                         <Link to='/login' className="btn btn-outline-success my-2 my-sm-0 mr-5" type="submit">Login</Link>
-                        <Link to='/dashboard' className="btn btn-outline-success my-2 my-sm-0 mr-5" type="submit">Dashbaord</Link>
-                        <Link to='/admin' className="btn btn-outline-success my-2 my-sm-0 mr-5" type="submit">Admin</Link>
+                        {/* <Link to='/dashboard' className="btn btn-outline-success my-2 my-sm-0 mr-5" type="submit">Dashbaord</Link> */}
+                        {/* <Link to='/admin' className="btn btn-outline-success my-2 my-sm-0 mr-5" type="submit">Admin</Link> */}
                     </div>
                 </nav>
         )
